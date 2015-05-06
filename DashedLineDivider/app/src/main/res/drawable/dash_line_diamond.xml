@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<rotate
+			android:drawable="@drawable/dash_line_divider_horizontal"
+			android:fromDegrees="-45"
+			android:toDegrees="-45"
+			android:pivotX="0"
+			android:visible="true"/>
+	</item>
+	<item>
+		<rotate
+			android:drawable="@drawable/dash_line_divider_horizontal"
+			android:fromDegrees="-45"
+			android:toDegrees="-45"
+			android:pivotX="100%p"
+			android:visible="true"/>
+	</item>
+	<item>
+		<rotate
+			android:drawable="@drawable/dash_line_divider_horizontal"
+			android:fromDegrees="45"
+			android:toDegrees="45"
+			android:pivotX="100%p"
+			android:visible="true"/>
+	</item>
+	<item>
+		<rotate
+			android:drawable="@drawable/dash_line_divider_horizontal"
+			android:fromDegrees="45"
+			android:toDegrees="45"
+			android:pivotX="0%p"
+			android:visible="true"/>
+	</item>
+	<item android:drawable="@drawable/dash_line_divider_vertical">
+	</item>
+	<item android:drawable="@drawable/dash_line_divider_horizontal">
+	</item>
+</layer-list>
